@@ -9,17 +9,11 @@ public class Product {
 	public Product(int i, String string) {
 		
 	}
-	public int getPrdId() {
-		return prdId;
+
+	@Override
+	public String toString() {
+		return "Product [prdId=" + prdId + ", prdName=" + prdName + "]";
 	}
-	public void setPrdId(int prdId) {
-		this.prdId = prdId;
-	}
-	public String getPrdName() {
-		return prdName;
-	}
-	public void setPrdName(String prdName) {
-		this.prdName = prdName;
-	}
+	
 	
 }
