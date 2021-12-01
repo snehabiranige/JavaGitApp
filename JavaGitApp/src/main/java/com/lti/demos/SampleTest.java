@@ -1,4 +1,6 @@
+package com.lti.demos;
+
 class SampleTest
 {
-  System.out.println("Welcome");
+	int i=0;
 }
